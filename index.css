@@ -1,0 +1,112 @@
+
+#header{
+    width:100%;
+    background-color:#211426;
+    color: white;
+    position: absolute top;
+    display:block;
+    text-align: left;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+html, body{
+    /*background-color: #F0F0F0;*/
+    background-image: url('images/linedpaper.png');
+    height: 100%;
+}
+
+td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+a:link {
+     color: #789048;
+    text-decoration: none;
+}
+
+a:visited {
+/*      text-decoration: none;
+  color: #604848;*/
+}
+
+/*a:hover {
+    
+text-decoration: none;
+}*/
+
+a.head {
+    color: #C8C8C8;
+}
+a.head:link{font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; color: #C8C8C8;}
+a.head:hover{text-decoration: none; color: #C8C8C8;}
+a.white:hover{text-decoration: underline; color: white;}
+a.white{color: white;}
+
+/*#header h1 {
+    display: inline;
+}
+
+#header h3 {
+    display:inline;
+    padding-left: 10px;
+    position: relative;
+    top: 10px;
+}*/
+
+#wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -60px;
+}
+
+#container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#info{
+    height: 400px;
+    background-color: #FEFEFE;
+
+}
+#right-col {
+
+
+}
+
+#push, #footer {
+   height: 60px;
+}
+
+.btn.loading {
+    background-image: -webkit-gradient(linear, 0 0, 100% 100%,
+        color-stop(.25, rgba(0, 0, 0, .10)), 
+        color-stop(.25, transparent),
+        color-stop(.5, transparent), 
+        color-stop(.5, rgba(0, 0, 0, .10)),
+        color-stop(.75, rgba(0, 0, 0, .10)), 
+        color-stop(.75, transparent), 
+        to(transparent));
+    background-image: 
+        -moz-linear-gradient(-45deg, 
+            rgba(0, 0, 0, .10) 25%, 
+            transparent 25%,
+            transparent 50%, rgba(0, 0, 0, .10) 50%, 
+            rgba(0, 0, 0, .10) 75%, 
+            transparent 75%, transparent
+        );
+    background-size: 50px 50px;
+    -moz-background-size: 50px 50px;
+    -webkit-background-size: 50px 50px;
+    -webkit-animation: animate-stripes 2s linear infinite;
+}
+
+@-webkit-keyframes animate-stripes {
+    from {
+        background-position: 0 0;
+    } 
+    to {
+       background-position: -50px 0;
+    }
+}
